@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    tools:context=".childLogin">
+
+
+    <EditText
+        android:id="@+id/uName"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="191dp"
+        android:width="200dp"
+        android:height="20dp"
+        android:background="#11000000"
+        android:drawableLeft="@mipmap/ic_name"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#fff"
+        android:textColorHint="@android:color/white"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/uEmail"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:width="200dp"
+        android:height="20dp"
+        android:background="#11000000"
+        android:drawableLeft="@mipmap/ic_mail"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#fff"
+        android:textColorHint="@android:color/white"
+        android:textSize="18sp" />
+    />
+
+    <EditText
+        android:id="@+id/uPassword"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="192dp"
+        android:width="200dp"
+        android:height="20dp"
+        android:background="#11000000"
+        android:drawableLeft="@mipmap/ic_lock"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textColorHint="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/uConfirmPassword"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp"
+        android:width="200dp"
+        android:height="20dp"
+        android:background="#11000000"
+        android:drawableLeft="@mipmap/ic_lock"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textColorHint="@android:color/white"
+    />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/btnstyle"
+        android:shadowColor="#fff"
+        android:text="REGISTER"
+        android:textColor="#fff"
+        android:onClick="registerUser"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

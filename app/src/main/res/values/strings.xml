@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">bm</string>
+    <string name="btnParent">Parent LOGIN</string>
+    <string name="un">userName</string>
+    <string name="ue">userEmail</string>
+    <string name="up">userPassword</string>
+    <string name="ucp">userConfirmPassword</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="notification_text">Tracking, tap to cancel</string>
+    <string name="transport_id" translatable="false">123</string>
+    <string name="firebase_path" translatable="false">locations</string>
+    <string name="title_activity_display">Map</string>
+    <string name="title_activity_child_gps_display">Map</string>
+    <string name="open_app_usage_setting">Open Apps with usage access settings</string>
+    <string name="last_time_used">"Last time used: "</string>
+    <string name="time_span">"Time span: "</string>
+    <string name="Total_Time_in_Foreground">"Time in Foreground: "</string>
+
+    <string name="explanation_access_to_appusage_is_not_enabled">Failed to retrieve app usage
+        statistics. You may need to enable access
+        for this app through Settings > Security > Apps with usage access
+</string>
+
+
+</resources>
